@@ -1,0 +1,3 @@
+0	/home/lab/data/Programming/DMDController/DMDImages/image0.bmp
+1	/home/lab/data/Programming/DMDController/DMDImages/image1.bmp
+2	/home/lab/data/Programming/DMDController/DMDImages/image2.bmp

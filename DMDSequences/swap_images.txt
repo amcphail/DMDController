@@ -1,0 +1,13 @@
+#-------------------------------------------------------------------------------------
+#Command	Parameters	Waitfor		Comment
+#-------------------------------------------------------------------------------------
+AssignVar	Inum0 0		1		# Inum0 = 0
+AssignVar	Inum1 1		1		# Inum1 = 1
+Label		StartHere	1		# Start of loop
+LoadGlobal	Inum0		400		# Load data from Inum0 (0) to DMD
+Trig		0 1		0		# High level electrical trigger
+ResetGlobal	  		40		# Display contents on DMD
+LoadGlobal	Inum1		400		# Load data from Inum1 (1) to DMD
+Trig		0 1		0		# High level electrical trigger
+ResetGlobal	  		40		# Display contents on DMD
+Jump		StartHere	1		# Jump to start of loop

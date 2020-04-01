@@ -1,0 +1,1 @@
+convert infile.bmp -depth 1 ppm:- | pnmdepth 1 | ppmtobmp > outfile.bmp
